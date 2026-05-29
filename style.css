@@ -1,5 +1,44 @@
 body {
-    height: 100%;
+    margin: 0;
+    padding: 40px 20px;
 }
 
-/* YOUR CSS CODE GOES HERE */
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#chart {
+overflow-x: auto;
+width: 100%;
+border: 1px solid #e9ecef;
+border-radius: 4px;
+}
+
+#chart svg {
+max-width: none !important;
+height: auto;
+}
+
+#chart2 {
+max-width: 800px;
+margin: 0 auto;
+width: 100%;
+border: 1px solid #e9ecef;
+border-radius: 4px;
+}
+
+svg {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
